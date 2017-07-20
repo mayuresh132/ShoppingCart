@@ -1,0 +1,19 @@
+
+<div class="container">
+<div class="jumbotron">
+<h1> My Shopping Cart</h1>
+</div>
+
+
+ <div class="row">
+ 
+   <div class="col-md-3 colBorder" >
+   		<app-second (out1)="img1=$event" (out2)="img2=$event" (out3)="img3=$event" (out4)="img4=$event" (out5)="img5=$event" (out6)="img6=$event" (out7)="img7=$event" (out8)="img8=$event" (out9)="img9=$event">  </app-second>
+   </div>
+
+   <div class="col-md-9">
+   		<app-third-comp [imgUrl1]="img1" [imgUrl2]="img2" [imgUrl3]="img3" [imgUrl4]="img4" [imgUrl5]="img5" [imgUrl6]="img6" [imgUrl7]="img7" [imgUrl8]="img8" [imgUrl9]="img9" ></app-third-comp>
+   </div>
+ 
+ <div>
+</div>

@@ -1,0 +1,13 @@
+.col-md-3{
+	background-color:red;
+	height:1000px;
+	border:1px solid black;
+}
+.col-md-9{
+	background-color:blue;
+	height:1000px;
+	border:1px solid yellow;
+}
+.colBorder{
+border:5px solid white;
+}
